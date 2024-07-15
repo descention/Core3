@@ -45,18 +45,18 @@ levelChance = 100
 
 --Chance dividend for attribute bonus modifiers
 baseChance = 100
-yellowChance = 1000
-exceptionalChance = 100000
-legendaryChance = 1000000
+yellowChance = 200
+exceptionalChance = 400
+legendaryChance = 1000
 
 --Multiplier values for bonus modifiers
 baseModifier = 1
 yellowModifier = 2
 exceptionalModifier = 8
-legendaryModifier = 9
+legendaryModifier = 10
 
 --The chance for random skill mods to be on looted weapons/wearables
-skillModChance = 1000 -- 1 in 1000
+skillModChance = 100 -- 1 in 1000
 
 -- Dot Distribution chance by DOT type. They must equate to 1.0
 poisonDotChance = 0.50
@@ -73,10 +73,10 @@ randomDotAttribute = {0, 8} -- See CreatureAttributes.h in src for numbers.
 randomDotStrength = {10, 100} -- poison x1.5, disease x0.5
 randomDotDuration = {30, 120} -- disease x4.0, fire x1.5
 randomDotPotency = {1, 50}
-randomDotUses = {250, 4999}
+randomDotUses = {2500, 49999}
 
 -- Modifier applied to min/max junk values found in loot item lua
-junkValueModifier = 5;
+junkValueModifier = 10;
 
 lootableArmorAttachmentStatMods = {
 	"aim",

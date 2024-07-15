@@ -89,6 +89,7 @@ RUN set -xe; \
         net-tools \
         netcat\* \
         ninja-build \
+	openjdk-17-jre \
         openssh-server \
         pv \
         pwgen \
